@@ -1,0 +1,96 @@
+main {
+    margin: 0;
+    padding: 0;
+
+    .contenedor1 {
+        width: 100%;
+        padding-top: 2rem;
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+        }
+
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+        }
+
+    }
+
+
+    .contenedor2 {
+        width: 100%;
+
+
+        .promociones {
+            max-width: 100%;
+        }
+    }
+
+
+    #contenedor3 {
+        width: 100%;
+
+
+    }
+
+    #contenedor4 {
+        width: 100%;
+        padding: 2%;
+
+
+        #trab_mod1 {
+            width: 100%;
+
+            .botonUno{
+                /* @extend %botonBase;
+                background-color: #979650; */
+
+                @include boton($backColor:#979650,$border:03px solid rgb(74, 83, 83));
+            }
+
+            .botonDos{
+                /* @extend %botonBase;
+                background-color: #975091; */
+                @include boton($backColor:#975091,$border:03px solid rgb(74, 83, 83));
+            
+
+                .promo1 {
+                    width: 450px;
+                }
+
+            }
+
+            .botonTres{
+                @extend %botonBase;
+                background-color: #509754;
+            }
+
+
+            .botonCuatro{
+                @extend %botonBase;
+                background-color: #b4e62d;
+                
+            }
+        }
+    }
+
+    .contenedor5{
+        .caja2{
+            height: auto;
+            background-color: $color-alternativo3;
+            margin: 0;
+            padding: 0;
+                        
+            .mediosPago {
+                font-size: $texto-medio;
+                margin-left: 3rem;
+                .mediosPago2 {
+                    font-size: $texto-medio;
+                    font-weight: bold; 
+                }
+            }
+
+        }
+    }
+
+
+}

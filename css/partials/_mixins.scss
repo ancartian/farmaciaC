@@ -1,0 +1,7 @@
+@mixin boton($backColor, $border){
+    border-radius: 05px;
+    font-weight: 800;
+    color: brown;
+    background-color: $backColor;
+    border-bottom: $border;
+}

@@ -1,0 +1,49 @@
+footer {
+    background-color: $color-alternativo4;
+    padding: 0%;
+    margin: 0%;
+
+                
+        .pie1 {
+            font-size: $texto-base;
+           
+            .destacado {
+                font-size: $texto-medio;
+            }
+
+            
+            .linkDestacado {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                margin-top: 3rem;
+            }
+        }
+        
+
+        .pie2 {
+            font-size: $texto-base;
+
+            .destacado {
+                font-size: $texto-medio;
+            }
+
+            .telefono{
+                margin-top: 20px;
+    
+                                
+                .tel{
+                    margin-top: 15px;
+                    font-weight: bold;
+                    font-size: $texto-medio;
+                }
+            }
+        }
+        
+                
+}
+
+
+
+
+
