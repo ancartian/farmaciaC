@@ -151,6 +151,15 @@ main .contenedor5 .caja2 .mediosPago .mediosPago2 {
   font-size: 2.2rem;
   font-weight: bold;
 }
+main .tituloContacto {
+  font-size: 3.2rem !important;
+  text-align: center !important;
+  padding: 2.4rem !important;
+}
+main .formulario {
+  font-size: 2.2rem !important;
+  text-align: center !important;
+}
 
 footer {
   background-color: #B394EE;

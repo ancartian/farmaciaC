@@ -92,5 +92,14 @@ main {
         }
     }
 
+    .tituloContacto{
+        font-size: $texto-grande!important;
+        text-align: center !important;
+        padding: $espaciado-medio !important;
+    }
 
+    .formulario{
+        font-size: $texto-medio !important;
+        text-align: center !important;
+    }
 }
