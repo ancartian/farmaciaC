@@ -84,6 +84,33 @@ main {
   margin: 0;
   padding: 0;
 }
+main .tituloConsultas {
+  text-align: center;
+}
+main .contenedor1Consultas {
+  margin-top: 3rem;
+}
+main .contenedor1Consultas .caja1 p {
+  font-size: 1.6rem;
+}
+main .contenedorConsultas {
+  margin-top: 3rem;
+}
+main .contenedorConsultas .cajaVertical p {
+  font-size: 1.6rem;
+}
+main .cajaVertical2 {
+  margin-top: 3rem;
+}
+main .cajaVertical2 p {
+  font-size: 1.6rem;
+}
+main .contenedor3 {
+  margin-top: 3rem;
+}
+main .contenedor3 p {
+  font-size: 1.6rem;
+}
 main .contenedor1 {
   width: 100%;
   padding-top: 2rem;
@@ -93,6 +120,24 @@ main .contenedor1 .carousel-control-prev-icon {
 }
 main .contenedor1 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+main .contenedor1 .cajaQuienesSomos .tituloQuienesSomos {
+  text-align: center;
+}
+main .contenedor1 .cajaQuienesSomos .cajaConsultas {
+  margin-top: 3rem;
+}
+main .contenedor1 .cajaQuienesSomos .cajaConsultas p {
+  font-size: 1.6rem;
+}
+main .contenedor1 .cajaConsultas3 p {
+  font-size: 1.6rem;
+}
+main .cajaFinConsulta p {
+  font-size: 1.6rem;
+}
+main .cajaFinConsulta li {
+  font-size: 1.6rem;
 }
 main .contenedor2 {
   width: 100%;
@@ -172,20 +217,27 @@ footer .pie1 {
 footer .pie1 .destacado {
   font-size: 2.2rem;
 }
-footer .pie1 .linkDestacado {
-  text-align: center;
-  display: flex;
-  justify-content: center;
+footer .pie1 .mapa {
   margin-top: 3rem;
 }
 footer .pie2 {
   font-size: 1.6rem;
 }
-footer .pie2 .destacado {
+footer .pie2 .parrafo1 {
+  margin-top: 1rem;
+}
+footer .pie2 .parrafo1 .destacado {
   font-size: 2.2rem;
 }
+footer .pie2 .parrafo2 {
+  margin-top: 3rem;
+}
+footer .pie2 .parrafo2 .destacado {
+  font-size: 2.2rem;
+  text-decoration: none;
+}
 footer .pie2 .telefono {
-  margin-top: 20px;
+  margin-top: 3rem;
 }
 footer .pie2 .telefono .tel {
   margin-top: 15px;
@@ -223,6 +275,9 @@ footer .pie2 .telefono .tel {
     width: 100%;
     padding-left: 7px !important;
   }
+  html body main .contenedor5 .pagos {
+    display: none !important;
+  }
 }
 @media all and (max-width: 599px) {
   header {
@@ -245,5 +300,8 @@ footer .pie2 .telefono .tel {
   header .botones .lista {
     display: flex;
     flex-direction: column;
+  }
+  main .contenedor5 .pagos {
+    display: none !important;
   }
 }/*# sourceMappingURL=styles.css.map */

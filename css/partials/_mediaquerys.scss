@@ -1,74 +1,74 @@
 @media all and (min-width: 600px) and (max-width:1023px) {
-html{ 
-  
-    body {
-        width: 100%;
-        
-        header {
-            width: 100%;
-            .imgLogo {
-                margin: 0 !important;
+    html{ 
+        body {
+        width: 100%; 
+            header {
                 width: 100%;
-                margin-left: 0%;
-                border-radius: 10px;
-                padding-bottom: 1rem;
-            }
-
-            .botones {
-                margin: 0 !important;
-                width: 100%;
-                margin-left: $espaciado-muy-chico !important; 
-                height: auto;
-                ul{
+                .imgLogo {
+                    margin: 0 !important;
                     width: 100%;
-                    li {
+                    margin-left: 0%;
+                    border-radius: 10px;
+                    padding-bottom: 1rem;
+                }
+                .botones {
+                    margin: 0 !important;
+                    width: 100%;
+                    margin-left: $espaciado-muy-chico !important; 
+                    height: auto;
+                    ul{
+                    width: 100%;
+                        li {
                         width: 100%;
-                        a {
+                            a {
                             width: 100%;
                             padding-left: 7px !important;
+                            }
                         }
                     }
                 }
             }
+            main{
+                .contenedor5{
+                    .pagos{
+                    display:none !important;
+                    }
+                }
+            }
         }
-
     }
-
-
-}
   
 }
 
 @media all and (max-width:599px) {
-header {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    
-        
-        .imgLogo {
+    header {
+        height: auto;
+        display: flex;
+        flex-direction: column; 
+            .imgLogo {
             margin: 0 !important;
             margin-left: 0%;
             padding-bottom: 1rem; 
-        }
-
-    
-
-        .botones{
+            }
+            .botones{
             padding: 5px 0px;
             width: 100%;
             margin: 0px;
             margin-bottom: 1rem;
-            height: auto !important;
-            
-            .lista{
+            height: auto !important;  
+                .lista{
                 display: flex;
                 flex-direction: column;
+                }
             }
         }
 
-    }
-        
-
+        main{
+            .contenedor5{
+                .pagos{
+                display:none !important;
+                }
+            }
+        }
 }
 

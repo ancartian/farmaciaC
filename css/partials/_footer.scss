@@ -6,41 +6,42 @@ footer {
                 
         .pie1 {
             font-size: $texto-base;
-           
-            .destacado {
-                font-size: $texto-medio;
-            }
-
-            
-            .linkDestacado {
-                text-align: center;
-                display: flex;
-                justify-content: center;
-                margin-top: 3rem;
-            }
+                .destacado {
+                    font-size: $texto-medio;
+                }
+                
+                .mapa{ 
+                    margin-top: 3rem;
+                }
         }
         
 
         .pie2 {
-            font-size: $texto-base;
-
-            .destacado {
+        font-size: $texto-base;
+            .parrafo1{
+                margin-top: 1rem;
+                .destacado {
                 font-size: $texto-medio;
+                }
+            }
+            
+            .parrafo2{
+            margin-top: 3rem;
+                .destacado {
+                    font-size: $texto-medio;
+                    text-decoration: none;
+                }
             }
 
             .telefono{
-                margin-top: 20px;
-    
-                                
+            margin-top: 3rem;              
                 .tel{
                     margin-top: 15px;
                     font-weight: bold;
                     font-size: $texto-medio;
                 }
             }
-        }
-        
-                
+        }      
 }
 
 
